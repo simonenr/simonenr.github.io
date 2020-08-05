@@ -1,0 +1,163 @@
+            /* MOUSE HOVER */
+
+.text:hover{
+   cursor:default;
+}
+
+.siema:hover{
+    cursor:url(../images/hover_right.png), auto;
+}
+
+
+        /* FONT */
+
+@font-face {
+  font-family: "Whyte";
+  src: url('Whyte.woff');
+}
+
+            /* GENERAL */
+
+html{
+    height:100%;
+    background-color:#171F18;
+}
+
+.container{
+    margin:80px 0px 0px 80px;
+    max-width:600px;
+}
+
+::selection {
+    color: #119769; 
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #119769;
+}
+
+body{
+    color:#FFFBF1;
+}
+
+
+
+
+           /* TEXT STYLING */
+
+body{
+    font-family: serif;
+    font-size:32px;
+    letter-spacing: 0.4px;
+    line-height:1.6;
+    font-family: 'Whyte';
+}
+
+h1, h2, h3{
+    font-size:32px;
+    letter-spacing: 0.4px;
+    font-family: 'Whyte';
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+a:hover{
+    color: inherit; 
+    cursor:url(../images/hover.png), auto;
+    width:30px;
+    transition: 0.4s ease;
+    color:;
+}
+
+
+
+
+
+        /* ELEMENT SPACING */
+
+section{
+    margin-bottom:40px;
+}
+
+ul li{
+    display:block;
+    margin: 0px 0px 0px 0px;
+}
+
+ul{
+    margin:0px 0px 40px 0px;
+}
+
+p{
+    margin:0px 0px 0px 40px;
+}
+
+
+h1{
+   margin-bottom:5px; 
+}
+
+h2{
+    margin:0px 0px 0px 40px;
+    margin-bottom:5px;
+}
+
+h3{
+    margin-bottom:5px;
+}
+
+
+
+
+                /* MEDIA QUERIES */
+
+
+/* Single col, mobile */
+@media (max-width: 699px) {
+
+body, h1, h2, h3{
+    font-size:22px;
+    letter-spacing: 0.4px;
+}
+    
+.container{
+    margin:40px 40px 40px 40px;
+}
+    
+}
+
+/* Single col, larger type */
+
+@media (min-width: 700px) and (max-width:899px) {
+    
+
+    
+}
+
+/* Larger than tablet, when the grid becomes active */
+@media (min-width: 900px) and (max-width: 1199px) {
+    
+
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+    
+}
+
+
+
+
+
+                /* FONTS */
+
+@font-face {
+    font-family: 'bau';
+    src: url(../fonts/bau.woff2) format('woff2'),
+         url(../fonts/bau.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
